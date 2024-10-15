@@ -2,21 +2,22 @@
 
 ## Install
 
-Paste the file `init.vim` in `.config/nvim/init.vim` or make a symbolic link.
+En caso de fallo de los plugins de nvim, buscar en github o en google el nombre del plugins y coger la config correcta
 
 1) Instalar neovim
 2) Instalar  to [Vim-Plug](https://github.com/junegunn/vim-plug#neovim) to neovim
-3) Crear fichero (donde se van poner los plugins y las configuraciones)
-		nvim /home/_USER_/.config/nvim/init.vim
+3) Copiar fichero init.vim (donde se van poner los plugins y las configuraciones)
+   en /home/$USER/.config/nvim/init.vim
 4) Abre `nvim` y escribe `:PlugUpdate`  para instalar y actualizar los plugins, y `:PlugUpgrade` para actualizar el propio gestor `vim-plug`
-5) Instalar esta [fuente](https://github.com/romkatv/powerlevel10k#manual-font-installation)
-6) Pegar el fichero `init.vim` en _.config/nvim/init.vim_
-7) Instala [bat](https://github.com/sharkdp/bat)
-8) Instalar `zsh` en este link: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
-9) Instalar `ohmyzsh` en este link: https://ohmyz.sh/#install
-10) Install `zoxide`
-11) Install `the_silver_searcher`
-12) [Install](https://releases.hashicorp.com/terraform-ls/) [terraform-ls](https://github.com/hashicorp/terraform-ls/blob/main/docs/installation.md) only download de binary and put in `/usr/local/bin/`. And execute in nvim `:CocConfig`  and paste the [next](https://github.com/hashicorp/terraform-ls/blob/main/docs/USAGE.md#vim--neovim):
+5) Instalar [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+6) Instalar [ohmyzsh](https://ohmyz.sh/#install)
+7) Instalar [fzf search](https://github.com/joshskidmore/zsh-fzf-history-search)
+8) Instalar esta [fuente](https://github.com/romkatv/powerlevel10k#manual-font-installation)
+9) Pegar el fichero `init.vim` en _.config/nvim/init.vim_
+10) Instala [bat](https://github.com/sharkdp/bat)
+11) Install `zoxide`
+12) Install `the_silver_searcher`
+13) [Install](https://releases.hashicorp.com/terraform-ls/) [terraform-ls](https://github.com/hashicorp/terraform-ls/blob/main/docs/installation.md) only download de binary and put in `/usr/local/bin/`. And execute in nvim `:CocConfig`  and       paste the [next](https://github.com/hashicorp/terraform-ls/blob/main/docs/USAGE.md#vim--neovim):
 
 ```bash
 {
@@ -34,8 +35,8 @@ Paste the file `init.vim` in `.config/nvim/init.vim` or make a symbolic link.
 	}
 }
 ```
-13) Instalar yarn
-14) Create folder "~/.local/share/nvim/site/autoload/airline/themes" and paste the file "tokyonight.vim"
+14) Instalar yarn
+15) Create folder "~/.local/share/nvim/site/autoload/airline/themes" and paste the file "tokyonight.vim"
 
 ## Shortcuts and tricks
 
